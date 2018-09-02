@@ -3,6 +3,8 @@ package guru.springframework.sftpetclinic.model;
 public class Person {
 	
 	private String firstName;
+	private String lastName;
+	
 	public String getFirstName() {
 		return firstName;
 	}
@@ -15,6 +17,6 @@ public class Person {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	private String lastName;
+	
 
 }
